@@ -1,9 +1,19 @@
-Stopped here:
-https://nextjs.org/learn/dashboard-app/error-handling
+## Description
+Web project using the main concepts of Next.js as described in the course [Learn Next.js](https://nextjs.org/learn/dashboard-app)
 
+## Installation
 
-## Next.js App Router Course - Starter
+clone this repository then run:
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+```bash
+$ pnpm install
+```
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+## Running the app
+
+Rename `.env.example` to `.env` and fill with your Vercel Postgres connection data. Them, run:
+
+```bash
+# development
+$ pnpm dev
+```
